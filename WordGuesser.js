@@ -18,14 +18,14 @@ function guessLetter(letter){
             guessedLettersArr[index2] = wordLettersArr[index];
             index2++;
             found = true;
-            reward = reward + Math.floor((Math.random() * 100) + 1); //random number between 1 and 100
+            reward = reward + 10; //Math.floor((Math.random() * 100) + 1) random number between 1 and 100 
         }   
     }
 
     if (found) {
         console.log('Congrats, you have found a new letter. ' + lettersFoundArr);    
     }else{
-        reward = reward - Math.floor((Math.random() * 100) + 1); //random number between 1 and 100
+        reward = reward - 10; //Math.floor((Math.random() * 100) + 1) random number between 1 and 100
         console.log('Sorry, new letter not found.');    
     }
 
