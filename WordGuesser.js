@@ -1,4 +1,4 @@
-var wordLettersArr = ['F','O','X','S'];
+var wordLettersArr = ['F','O','X'];
 var guessedLettersArr = [];
 var lettersFoundArr = [];
 var index2 = 0;
@@ -38,9 +38,9 @@ function guessLetter(letter){
     console.log('');
 }
 
+guessLetter('S');
 guessLetter('O');
 guessLetter('R');
 guessLetter('F');
-guessLetter('X');
 guessLetter('R');
-guessLetter('S');
+guessLetter('X');
